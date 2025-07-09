@@ -11,7 +11,7 @@ function atualizarTempo() {
   const segundos = agora.getSeconds();
 
   document.getElementById("tempo").textContent =
-    `Compartilhando momentos há ${String(anos).padStart(2, '0')} anos ` +
+    `nosso romance começou há ${String(anos).padStart(2, '0')} anos ` +
     `${String(meses).padStart(2, '0')} meses ${String(dias).padStart(2, '0')} dias ` +
     `${String(horas).padStart(2, '0')} horas ${String(minutos).padStart(2, '0')} minutos ${String(segundos).padStart(2, '0')} segundos ❤️🔥`;
 }
